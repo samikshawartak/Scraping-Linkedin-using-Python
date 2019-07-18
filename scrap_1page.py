@@ -12,12 +12,12 @@ def login_and_search():
     driver.maximize_window()
 
     email = driver.find_element_by_xpath('//*[@id="username"]')
-    email.send_keys('vikrantikawale1234@gmail.com')
+    email.send_keys('/* username of linkedin */ ')
 
     time.sleep(2)
 
     password = driver.find_element_by_xpath('//*[@id="password"]')
-    password.send_keys('qwerty@123')
+    password.send_keys('/* password of linkedin */ ')
 
     time.sleep(2)
 
